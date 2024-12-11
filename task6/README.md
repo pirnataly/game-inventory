@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## React + TypeScript + Vite
 
-## Expanding the ESLint configuration
+Educational project. The main goal is to design the inventory interface for a video game using react components.\
+Inventory is a grid of cells of a fixed size (for example, 12x8).\
+Items can be of different types (potions, equipment, weapons),\
+of different rarities (common, rare, epic) and \
+have different sizes: 1x1, 1x2, 2x1, 3x1, 2x2.\
+The type and rarity of the item should be displayed on it by color or icon.\
+The inventory should be loaded from a json file.\
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+There are 3 jsons files are prepared for validation check:
 
-- Configure the top-level `parserOptions` property like this:
+1) data1 - normal inventory arrangement
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+2) data2 - the last item (item25) has intersection with the previous one (item24).
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+3) data3 - the last item (item36) is outside the grid. 
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
