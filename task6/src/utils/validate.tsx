@@ -4,15 +4,12 @@ export const validateInventory = (items: InventoryItemData[], gridSize: { rows: 
   const grid = Array(gridSize.rows).fill(null).map(() => Array(gridSize.columns).fill(false));
 
   for (const item of items) {
-    const { position, size } = item;
+    const {position, size} = item;
     const [x, y] = position;
-
-    // Проверка, что предмет вмещается в сетку
-      if (x + size[0] > gridSize.columns || y + size[1] > gridSize.rows) {
+    if (x + size[0] > gridSize.columns || y + size[1] > gridSize.rows) {
       return false;
     }
 
-    // Проверка на пересечение предметов
     for (let i = 0; i < size[1]; i++) {
       for (let j = 0; j < size[0]; j++) {
         if (grid[y + i][x + j]) {

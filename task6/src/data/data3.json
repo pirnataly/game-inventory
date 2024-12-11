@@ -1,0 +1,264 @@
+[
+  {
+    "id": "item1",
+    "type": "potion",
+    "rarity": "rare",
+    "size": [2, 2],
+    "position": [0, 0]
+  },
+  {
+    "id": "item2",
+    "type": "equipment",
+    "rarity": "common",
+    "size": [1, 3],
+    "position": [2, 0]
+  },
+  {
+    "id": "item3",
+    "type": "weapon",
+    "rarity": "rare",
+    "size": [1, 3],
+    "position": [3, 0]
+  },
+  {
+    "id": "item4",
+    "type": "potion",
+    "rarity": "common",
+    "size": [1, 3],
+    "position": [4, 0]
+  },
+  {
+    "id": "item5",
+    "type": "equipment",
+    "rarity": "epic",
+    "size": [1, 3],
+    "position": [5, 0]
+  },
+  {
+    "id": "item6",
+    "type": "weapon",
+    "rarity": "rare",
+    "size": [1, 3],
+    "position": [6, 0]
+  },
+  {
+    "id": "item7",
+    "type": "potion",
+    "rarity": "epic",
+    "size": [1, 3],
+    "position": [7, 0]
+  },
+  {
+    "id": "item8",
+    "type": "equipment",
+    "rarity": "rare",
+    "size": [1, 3],
+    "position": [8, 0]
+  },
+  {
+    "id": "item9",
+    "type": "weapon",
+    "rarity": "common",
+    "size": [1, 3],
+    "position": [9, 0]
+  },
+  {
+    "id": "item10",
+    "type": "potion",
+    "rarity": "rare",
+    "size": [2, 2],
+    "position": [10, 0]
+  },
+  {
+    "id": "item11",
+    "type": "equipment",
+    "rarity": "epic",
+    "size": [2, 2],
+    "position": [0, 2]
+  },
+  {
+    "id": "item12",
+    "type": "weapon",
+    "rarity": "epic",
+    "size": [2, 2],
+    "position": [10, 2]
+  },
+  {
+    "id": "item13",
+    "type": "weapon",
+    "rarity": "epic",
+    "size": [2, 2],
+    "position": [2, 3]
+  },
+  {
+    "id": "item14",
+    "type": "potion",
+    "rarity": "rare",
+    "size": [1, 2],
+    "position": [4, 3]
+  },
+  {
+    "id": "item15",
+    "type": "equipment",
+    "rarity": "rare",
+    "size": [1, 1],
+    "position": [5, 3]
+  },
+  {
+    "id": "item16",
+    "type": "weapon",
+    "rarity": "common",
+    "size": [1, 1],
+    "position": [6, 3]
+  },
+  {
+    "id": "item17",
+    "type": "potion",
+    "rarity": "rare",
+    "size": [1, 2],
+    "position": [7, 3]
+  },
+  {
+    "id": "item18",
+    "type": "equipment",
+    "rarity": "epic",
+    "size": [2, 2],
+    "position": [8, 3]
+  },
+  {
+    "id": "item19",
+    "type": "potion",
+    "rarity": "common",
+    "size": [2, 2],
+    "position": [0, 4]
+  },
+  {
+    "id": "item20",
+    "type": "equipment",
+    "rarity": "common",
+    "size": [1, 1],
+    "position": [5, 4]
+  },
+  {
+    "id": "item21",
+    "type": "weapon",
+    "rarity": "epic",
+    "size": [1, 1],
+    "position": [6, 4]
+  },
+  {
+    "id": "item22",
+    "type": "potion",
+    "rarity": "common",
+    "size": [2, 2],
+    "position": [10, 4]
+  },
+  {
+    "id": "item23",
+    "type": "equipment",
+    "rarity": "epic",
+    "size": [2, 2],
+    "position": [2, 5]
+  },
+  {
+    "id": "item24",
+    "type": "weapon",
+    "rarity": "epic",
+    "size": [1, 1],
+    "position": [4, 5]
+  },
+  {
+    "id": "item25",
+    "type": "potion",
+    "rarity": "epic",
+    "size": [1, 3],
+    "position": [5, 5]
+  },
+  {
+    "id": "item26",
+    "type": "equipment",
+    "rarity": "rare",
+    "size": [1, 3],
+    "position": [6, 5]
+  },
+  {
+    "id": "item27",
+    "type": "weapon",
+    "rarity": "epic",
+    "size": [1, 1],
+    "position": [7, 5]
+  },
+  {
+    "id": "item28",
+    "type": "potion",
+    "rarity": "common",
+    "size": [2, 2],
+    "position": [8, 5]
+  },
+  {
+    "id": "item29",
+    "type": "equipment",
+    "rarity": "rare",
+    "size": [2, 2],
+    "position": [0, 6]
+  },
+  {
+    "id": "item30",
+    "type": "equipment",
+    "rarity": "rare",
+    "size": [1, 2],
+    "position": [4, 6]
+  },
+  {
+    "id": "item31",
+    "type": "weapon",
+    "rarity": "common",
+    "size": [1, 2],
+    "position": [7, 6]
+  },
+  {
+    "id": "item32",
+    "type": "weapon",
+    "rarity": "rare",
+    "size": [2, 2],
+    "position": [10, 6]
+  },
+  {
+    "id": "item33",
+    "type": "equipment",
+    "rarity": "epic",
+    "size": [1, 1],
+    "position": [2, 7]
+  },
+  {
+    "id": "item34",
+    "type": "potion",
+    "rarity": "rare",
+    "size": [1, 1],
+    "position": [3, 7]
+  },
+  {
+    "id": "item35",
+    "type": "potion",
+    "rarity": "epic",
+    "size": [1, 1],
+    "position": [8, 7]
+  },
+  {
+    "id": "item36",
+    "type": "equipment",
+    "rarity": "rare",
+    "size": [1, 1],
+    "position": [9, 7]
+  },
+  {
+    "id": "item37",
+    "type": "potion",
+    "rarity": "common",
+    "size": [1, 1],
+    "position": [12, 7]
+  }
+
+
+
+]
