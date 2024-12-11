@@ -1,7 +1,7 @@
 
+# Game-inventory
 
-
-## React + TypeScript + Vite
+### React + TypeScript + Vite
 
 Educational project. The main goal is to design the inventory interface for a video game using react components.\
 Inventory is a grid of cells of a fixed size (for example, 12x8).\
